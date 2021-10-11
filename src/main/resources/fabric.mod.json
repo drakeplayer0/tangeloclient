@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "tutclient",
+  "version": "${version}",
+  "name": "Tutorial Client",
+  "description": "A tutorial client",
+  "authors": [
+    "0x150"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/tutclient/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.zeroX150.tutorialClient.TutorialClient"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "tutclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6"
+  }
+}

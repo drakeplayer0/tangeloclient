@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "me.zeroX150.tutorialClient.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "MinecraftClientMixin",
+    "ScreenMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
